@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page - Super Nintendo World</title>
+    <link rel="icon" type="image/x-icon" href="images/mushroom.png">
+  
+    <link href="https://fonts.cdnfonts.com/css/new-super-mario-font-u" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+
+    <style>
+
+      body
+      {
+        background-image: url('images/homepage_background.png');
+        margin: 0px;
+      }
+
+      .top_part
+      {
+        background-color: rgb(0, 0, 190);
+      }
+
+      header
+      {
+        display: grid;
+        grid-template-columns: 1fr 1fr 85px;
+        
+        margin: 0px;
+      }
+
+      .search_box
+      {
+        margin-top: 10px;
+        text-align:right;
+        padding-right: 5px;
+      }
+  
+      input
+      {
+        font-size: 35px;
+        border-radius: 25px;
+        border-color: #ff6600;
+      }
+
+      .search_button
+      {
+        margin-top: 10px;
+        margin-right: 10px;
+        background-color: #ffe600;
+        border-color: #ff6600;
+        height: 75px;
+        width: 70px;
+        border-radius: 25px;
+        cursor: pointer;
+      }
+      
+      .welcome_part
+      {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        display: grid;
+        grid-template-columns: 500px 1fr 500px;
+      }
+
+      .guide_title
+      {
+        text-align: center;
+      }
+
+      hr
+      {
+        background-color:#ffdd00;
+        border: none;
+        height: 10px;
+      }
+
+      .nintendo_logo
+      {
+        margin-left: 10px;
+        margin-top: 10px;
+      }
+
+      .beginning_mushroom
+      {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+      }
+
+      .things_to_do
+      {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .main_images
+      {
+        width: 800px;
+        height: 600px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        border-radius: 100px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+      }
+
+      .main_images_text
+      {
+        font-size: 135px;
+        color: white;
+        -webkit-text-stroke: 5px black;
+        text-align: center;
+        margin-top: 175px;
+        font-family: 'New Super Mario Font U';
+      }
+
+      .example_images
+      {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+      }
+
+      .display_images
+      {
+        width: 600px;
+        height: 450px;
+        border-radius: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        margin-top: 50px;
+        margin-bottom: 50px;
+      }
+
+      .txt_below_examples
+      {
+        font-size: 100px;
+        color: white;
+        -webkit-text-stroke: 3px black;
+        text-align: center;
+        font-family: 'New Super Mario Font U';
+      }
+
+      .to_next_page_button
+      {
+        background-color: #ffe600;
+        border-color: #ff6600;
+        font-size: 75px;
+        height: 125px;
+        width: 600px;
+        border-radius: 25px;
+        cursor: pointer;
+        margin-top: 25px;
+        margin-bottom: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        font-family: 'New Super Mario Font U';
+      }
+
+      .super_nintendo_world_full_image
+      {
+        height: 450px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        border-radius: 25px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+      }
+
+      .join_us_now_button
+      {
+        background-color: #ffe600;
+        border-color: #ff6600;
+        font-size: 75px;
+        height: 125px;
+        width: 600px;
+        border-radius: 25px;
+        cursor: pointer;
+        margin-top: 25px;
+        margin-bottom: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        font-family: 'New Super Mario Font U';
+      }
+
+      a
+      {
+        text-decoration-line: none;
+      }
+      footer
+      {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .disclaimer
+      {
+        font-size: 35px;
+        margin-left: 10px;
+        color: white;
+        -webkit-text-stroke: 1px black;
+        margin-top: 12.5px;
+        font-family: 'Rubik';
+      }
+
+      .mario_block
+      {
+        width: 125px;
+        height: 125px;
+        margin-left: 782.5px;
+        margin-bottom: 0px;
+        margin-top: 12.5px;
+      }
+
+      .click_me_text
+      {
+        font-size: 50px;  
+        margin-top: 0px;
+        margin-right: 10px;
+        color: white;
+        -webkit-text-stroke: 1px black;
+        margin-bottom: 0px;
+        text-align: right;
+        font-family: 'Rubik';
+      }
+
+      .easter_image
+      {
+        background-color: rgb(0, 0, 190);
+        border:none;
+        width: 125px;
+        height: 125px;
+        cursor: pointer;
+      }
+
+      .footer_color
+      {
+        background-color: rgb(0, 0, 190);
+      }
+
+    </style>
+  
+  </head>
+
+    
+
+  <body>
+
+    <div class="top_part">
+
+      <header>
+
+        <div>
+          <img class="nintendo_logo" src="images/nintendo_logo.png" alt="The Nintendo Logo" height= 75px>
+        </div>
+
+        <div class="search_box">
+          <input type="text" placeholder="Search" style="height:70px; width:300px">
+        </div> 
+          
+        <div>
+          <button class="search_button">
+            <img src="images/search_icon.png" alt="Search Icon" width="25"> 
+          </button>
+        </div>
+
+      </header>
+
+      <hr>
+
+      <div class="welcome_part">
+        
+        <div>
+          <img class="beginning_mushroom" src="images/3D-mushroom.png" alt="Mario Mushroom" width="200">
+        </div>
+
+        <div class="guide_title">
+          <img src="images/Super_Nintendo_World_Logo.png" alt="Super Nintendo World Logo">
+        </div>
+
+        <div>
+          <img class="beginning_mushroom" src="images/3D-mushroom.png" alt="Mario Mushroom" width="200">
+        </div>
+
+      </div>
+    
+      <hr>
+    
+    </div>
+    
+    <div class="things_to_do">
+      
+      <div>
+        <img class="main_images" src="images/Mario_Kart-Attraction.png" alt="Mario Kart Attraction">
+      </div>
+      
+      <div class="main_images_text">
+        Super Fun Rides!!!
+      </div>
+
+    </div>
+
+    <hr>
+
+    <div class="things_to_do">
+      
+      <div class="main_images_text">
+        Meet The Brothers!!!
+      </div>
+
+      <div>
+        <img class="main_images" src="images/Mario_and_Luigi_SNW.jpg" alt="Mario & Luigi Mascots">
+      </div>
+
+    </div>
+
+    <hr>
+
+    <div class="things_to_do">
+      
+      <div>
+        <img class="main_images" src="images/SNW_Foods.jpg" alt="Super Nintendo World Burgers & Fries">
+      </div>
+      
+      <div class="main_images_text">
+        Delicious Foods!!!
+      </div>
+
+    </div>
+
+    <hr>
+
+    <div class="example_images">
+      <div> <img class= "display_images" src="images/things_to_do_homepage_1.jpeg" alt="Thumbnail of Things To Do"> </div>
+      <div> <img class= "display_images" src="images/things_to_do_homepage_2.jpg" alt="Thumbnail of Things To Do"> </div>
+      <div> <img class= "display_images" src="images/things_to_do_homepage_3.jpeg" alt="Thumbnail of Things To Do"> </div>
+    </div>
+
+    <div class="txt_below_examples"> Check Out Fun Things To Do! </div>
+
+    <button class="to_next_page_button">Take Me There!</button>
+
+    <hr>
+
+    <div class="example_images">
+      <div> <img class= "display_images" src="images/gallery_homepage_1.jpg" alt="Thumbnail of Things To Do"> </div>
+      <div> <img class= "display_images" src="images/gallery_homepage_2.jpg" alt="Thumbnail of Things To Do"> </div>
+      <div> <img class= "display_images" src="images/gallery_homepage_3.jpg" alt="Thumbnail of Things To Do"> </div>
+    </div>
+
+    <div class="txt_below_examples"> Jump Into The Gallery! </div>
+
+    <button class="to_next_page_button">Let's-a Go!</button>
+    
+    <hr>
+
+    <div class="tickets">
+      <div> <img class= "super_nintendo_world_full_image" src="images/Super_Nintendo_World_Join_Us.png" alt="Super Nintendo World Entrance"> </div>
+    </div>
+
+    <div class="txt_below_examples"> What Are You Waiting For? </div>
+
+    <a href="error_screen.html"><button class="join_us_now_button">Join Us Now!</button></a>
+
+    <div class="footer_color">
+
+      <hr>
+
+      <footer>
+
+        <div class="disclaimer">
+          <div>COPYRIGHT NINTENDO ©</div>
+          <div>This website is for educational purposes,<br> all rights belong to Nintendo. <br> In other words, please don't sue me.</div>
+        </div>
+
+        <div>
+          <button id="showGifBtn" class="easter_image">
+            <img class="mario_block" src="images/mario_question_block.webp" alt="Super Mario Easter Egg Question Block">
+          </button>
+          
+          <!--DISCLAIMER: I GOT THESE CODES ONLINE ↓↓↓↓, I DID NOT MAKE THEM, WAS JUST USED FOR THE EASTER EGG :)-->
+
+          <div id="gifModal" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.8);">
+            <span class="close" onclick="closeModal()" style="color: #fff; position: absolute; top: 10px; right: 10px; font-size: 20px; cursor: pointer;">&times;</span>
+            <img src="images/mario_and_luigi_dancing.gif" alt="Dancing Mario and Luigi GIF" style="width: 1368px; height: 768px; object-fit: cover; margin-left: auto; margin-right: auto; display: block; ">
+            <audio id="backgroundMusic" src="music/super_nintendo_world_homepage.mp3" loop></audio>
+          </div>
+          
+          <script src="script.js"></script>
+          
+          <!--DISCLAIMER: I GOT THESE CODES ONLINE ↑↑↑↑, I DID NOT MAKE THEM, WAS JUST USED FOR THE EASTER EGG :)-->
+          
+          <p class="click_me_text">Click Me!</p>
+
+        </div>
+                
+      </footer>
+
+      
+
+
+
+    </div>  
+
+  </body>
+
+</html>

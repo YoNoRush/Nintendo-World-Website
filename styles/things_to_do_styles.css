@@ -1,0 +1,265 @@
+body
+{
+  background-image: url('../images/things_to_do_background.png');
+  margin: 0px;
+}
+
+.top_part
+{
+  background-color: rgb(0, 0, 190);
+}
+
+header
+{
+  display: grid;
+  grid-template-columns: 1fr 1fr 85px;
+  
+  margin: 0px;
+}
+
+.search_box
+{
+  margin-top: 10px;
+  text-align:right;
+  padding-right: 5px;
+}
+
+input
+{
+  font-size: 35px;
+  border-radius: 25px;
+  border-style: solid;
+  border-color:white;
+
+}
+
+.search_button
+{
+  margin-top: 10px;
+  margin-right: 10px;
+  border-style:solid;
+  background-color: #ffe600;
+  border-color: #ff6600;
+  height: 75px;
+  width: 70px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.15s, color 0.15s;
+}
+
+.search_button:hover 
+{
+  background-color: #ff9900;
+}
+
+.search_button:active {
+  background-color: #ff6600;
+}
+
+.welcome_part
+{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.guide_title
+{
+  text-align: center;
+}
+
+.main_logo
+{
+  width: 600px;
+}
+
+.navigation
+{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.option
+{
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.option a
+{
+  color: white;
+  text-decoration: none;
+  font-family: 'New Super Mario Font U';
+  font-size: 45px;
+}
+
+.option a:hover {
+  color: rgb(125, 125, 255);
+}
+
+.option a:active {
+  color: rgb(89, 89, 255);
+}
+
+hr
+{
+  background-color:#ff6600;
+  border: none;
+  height: 10px;
+}
+
+.yellow_line
+{
+  background-color:#ffdd00;
+  border: none;
+  height: 10px;
+}
+
+.nintendo_logo
+{
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.beginning_star
+{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 25px;
+}
+
+.mascots_grid
+{
+  display: grid;
+  grid-template-columns: 1fr 1.25fr 1fr;
+}
+
+.meet_our_mascots_txt
+{
+  font-size: 120px;
+  font-family: 'New Super Mario Font U';
+  text-align: center;
+  color: white;
+  -webkit-text-stroke: 5px black;
+  margin-bottom: 25px;
+}
+
+.what_to_do
+{
+  font-size: 120px;
+  font-family: 'New Super Mario Font U';
+  text-align: center;
+  color: white;
+  -webkit-text-stroke: 5px black;
+  margin-bottom: 25px;
+}
+
+.image_right_left
+{
+  width: 450px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  display: block;      
+  border-radius: 50px;
+}
+
+.middle_mascots
+{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;     
+  width: 800px;
+  border-radius: 100px;
+  margin-bottom: 20px;
+}
+
+.mascots_below
+{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.bottom_three
+{
+  width: 550px;
+  border-radius: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-bottom: 25px;
+}
+
+.rides_grid
+{
+  display: grid;
+  grid-template-columns: 2fr 1fr 2fr;
+}
+
+.rides_first_photos
+{
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border-radius: 100px;
+  margin-bottom: 25px;
+}
+
+a
+{
+  text-decoration-line: none;
+}
+
+footer
+{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.disclaimer
+{
+  font-size: 35px;
+  margin-left: 10px;
+  color: white;
+  -webkit-text-stroke: 1px black;
+  margin-top: 12.5px;
+  font-family: 'Rubik';
+}
+
+.mario_block
+{
+  width: 125px;
+  height: 125px;
+  margin-left: 775px;
+  margin-bottom: 0px;
+  margin-top: 12.5px;
+}
+
+.click_me_text
+{
+  font-size: 50px;  
+  margin-top: 0px;
+  margin-right: 10px;
+  color: white;
+  -webkit-text-stroke: 1px black;
+  margin-bottom: 0px;
+  text-align: right;
+  font-family: 'Rubik';
+}
+
+.easter_image
+{
+  background-color: rgb(0, 0, 190);
+  border:none;
+  width: 125px;
+  height: 125px;
+  cursor: pointer;
+}
+
+.footer_color
+{
+  background-color: rgb(0, 0, 190);
+}
