@@ -5,8 +5,138 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Gallery - Super Nintendo World</title>
   <link rel="icon" type="image/x-icon" href="images/fire_flower.png">
+
+  <link href="https://fonts.cdnfonts.com/css/new-super-mario-font-u" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles/gallery_styles.css">
 </head>
+
 <body>
+
+  <div class="top_part">
+
+    <header>
+
+      <div>
+        <img class="nintendo_logo" src="images/nintendo_logo.png" alt="The Nintendo Logo" height= 75px>
+      </div>
+
+      <div class="search_box">
+        <input type="text" placeholder="Search" style="height:70px; width:300px">
+      </div> 
+        
+      <div>
+        <a href="error_screen.html">
+          <button class="search_button">
+            <img src="images/search_icon.png" alt="Search Icon" width="25"> 
+          </button>
+        </a>
+      </div>
+
+    </header>
+
+    <hr>
+
+    <div class="welcome_part">
+      
+      <div>
+        <img class="left_mushroom" src="images/3D_fire_flower.png" alt="Mario Mushroom" width="225">
+      </div>
+
+      <div class="guide_title">
+        <img class="main_logo" src="images/Super_Nintendo_World_Logo.png" alt="Super Nintendo World Logo">
+      </div>
+
+      <div>
+        <img class="right_mushroom" src="images/3D_fire_flower.png" alt="Mario Mushroom" width="225">
+      </div>
+
+    </div>
   
+    <div class="navigation">
+      <div class="option"><a href="things_to_do.html">Things To Do</a></div>
+      <div class="option"><a href="index.html">Home</a></div>
+      <div class="option"><a href="gallery.html">Gallery</a></div>
+    </div>
+
+    <hr>
+
+  </div>
+
+  <div class="what_to_do">
+    Gallery!
+  </div> 
+
+  <div class="what_to_do_bottom">
+    Take a peek at what you can experience at  <br>  Super Nintendo World!
+  </div> 
+
+  <div class="grid_1">
+    <div><img class="images_1" src="images/SNW_Kinopio_Cafe_Yoshi_Spinach_Carbonara.jpg" alt="SNW Dish"></div>
+    <div><img class="images_1" src="images/SNW_Kinopio_Cafe_Super_Star_Rice.jpg" alt="SNW Dish"></div>
+    <div><img class="images_1" src="images/SNW_Kinopio_Cafe_Luigi_Green_Curry_Chicken_Sandwich.jpg" alt=""></div>
+  </div>
+
+  <div class="grid_2">
+    <div><img class="images_2" src="images/SNW_Kinopios_Cafe_storefront.jpg" alt="SNW Cafe Storefront"></div>
+    <div><img class="images_2" src="images/SNW_Power_Up_Bands_photo.jpg" alt="SNW Power Up Bands"></div>
+  </div>
+
+  <div class="grid_3">
+    <div><img class="images_3" src="images/Mario_Kart_Koopa_Challenge_trophies.png" alt=""></div>
+    <div><img class="images_3" src="images/Mario_Kart_track.jpg" alt="Mario Kart Track"></div>
+    <div><img class="images_3" src="images/Mario_Motors_storefront.jpg" alt="SNW Mario Motors Storefront"></div>
+  </div>
+
+  <div class="grid_4">
+    <img class="images_4" src="images/SNW_DKC_Play_Wild_Artwork_1.jpg" alt="">
+  </div>
+
+  <div class="grid_5">
+    <div><img class="images_5" src="images/SNW_Toadstool_Cafe_storefront.jpg" alt="SNW Toadstool Cafe Storefront"></div>
+    <div><img class="images_5" src="images/SNW_Toadstool_Cafe_Interior.jpg" alt="SNW Toadstool Cafe Interior"></div>
+    <div><img class="images_5" src="images/SNW_Toadstool_Cafe_ordering_stations.jpg" alt="SNW Toadstool Cafe Ordering Stations"></div>
+  </div>
+
+  <div class="footer_color">
+
+    <hr>
+
+    <footer>
+
+      <div class="disclaimer">
+        <div>COPYRIGHT NINTENDO ©</div>
+        <div>This website is for educational purposes,<br> all rights belong to Nintendo. <br> In other words, please don't sue me.</div>
+      </div>
+
+      <div>
+        <button id="showGifBtn" class="easter_image">
+          <img class="mario_block" src="images/mario_question_block.webp" alt="Super Mario Easter Egg Question Block">
+        </button>
+        
+        <!--DISCLAIMER: I GOT THESE CODES ONLINE ↓↓↓↓, I DID NOT MAKE THEM, WAS JUST USED FOR THE EASTER EGG :)-->
+
+        <div id="gifModal" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.8);">
+          <span class="close" onclick="closeModal()" style="color: #fff; position: absolute; top: 10px; right: 10px; font-size: 20px; cursor: pointer;">&times;</span>
+          <img src="images/mario_and_luigi_dancing.gif" alt="Dancing Mario and Luigi GIF" style="width: 1368px; height: 768px; object-fit: cover; margin-left: auto; margin-right: auto; display: block; ">
+          <audio id="backgroundMusic" src="music/super_nintendo_world_homepage.mp3" loop></audio>
+        </div>
+        
+        <script src="script.js"></script>
+        
+        <!--DISCLAIMER: I GOT THESE CODES ONLINE ↑↑↑↑, I DID NOT MAKE THEM, WAS JUST USED FOR THE EASTER EGG :)-->
+        
+        <p class="click_me_text">Click Me!</p>
+
+      </div>
+              
+    </footer>
+
+  </div> 
+
 </body>
 </html>
