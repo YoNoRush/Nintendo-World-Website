@@ -1,4 +1,4 @@
-# Suepr Nintendo World Website
+# Super Nintendo World Website
 My own design of the Super Nintendo World Website.
 
 ## Running the Website
