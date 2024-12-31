@@ -21,5 +21,3 @@ function openModal() {
 function closeModal() {
   gifModal.style.display = 'none';
 }
-
-// DISCLAIMER: I GOT THESE CODES ONLINE ↑↑↑↑, I DID NOT MAKE THEM, WAS JUST USED FOR THE EASTER EGG :)--> //
